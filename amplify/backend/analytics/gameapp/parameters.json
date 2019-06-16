@@ -1,0 +1,20 @@
+{
+    "appName": "gameapp",
+    "roleName": "pinpointLambdaRole279e1a2a",
+    "cloudWatchPolicyName": "cloudWatchPolicy279e1a2a",
+    "pinpointPolicyName": "pinpointPolicy279e1a2a",
+    "authPolicyName": "pinpoint_amplify_279e1a2a",
+    "unauthPolicyName": "pinpoint_amplify_279e1a2a",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

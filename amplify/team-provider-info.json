@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "gameapp-dev-20190615152344-authRole",
+            "UnauthRoleArn": "arn:aws:iam::295841432243:role/gameapp-dev-20190615152344-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::295841432243:role/gameapp-dev-20190615152344-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "gameapp-dev-20190615152344-deployment",
+            "UnauthRoleName": "gameapp-dev-20190615152344-unauthRole",
+            "StackName": "gameapp-dev-20190615152344",
+            "StackId": "arn:aws:cloudformation:us-east-1:295841432243:stack/gameapp-dev-20190615152344/6cec7f80-8f68-11e9-9bca-0af1b2bb447e"
+        },
+        "categories": {
+            "auth": {
+                "cognito688b0456": {}
+            }
+        }
+    }
+}
